@@ -1,0 +1,23 @@
+{
+  "name": "post-request-demo",
+  "version": "1.0.0",
+  "description": "Post Requests done with Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobD30/PostRequestDemo.git"
+  },
+  "author": "rob",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/RobD30/PostRequestDemo/issues"
+  },
+  "homepage": "https://github.com/RobD30/PostRequestDemo#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
