@@ -8,17 +8,18 @@ app.get('/', function(req, res){
 })
 
 app.get('/friends', function(req, res){
-    res.render('friends');
+    var friends = ['Krazy', 'Amanda', 'Avery', 'Marshall', 'Dimitar', 'Charmander']
+    res.render('friends', {friends: friends});
 })
 
 app.get('/holley', function(req, res){
     res.render('holley');
-    console.log('Someone looked at Holley\'s page')
+    console.log('Someone looked at Holley\'s page');
 })
 
 app.get('/amanda', function(req, res){
-    res.render('amanda')
-    console.log('Someone looked at Amanada\'s page')
+    res.render('amanda');
+    console.log('Someone looked at Amanada\'s page');
 })
 
 app.listen(process.env.PORT, process.env.IP, function(){
